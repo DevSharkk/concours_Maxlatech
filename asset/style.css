@@ -1,0 +1,127 @@
+/* HTML */
+html {
+  background-color: rgb(200, 200, 200);
+  display: flex;
+  justify-content: center;
+  margin-top: 120px;
+}
+
+/* MISE EN PAGE */
+
+body {
+  background-color: #fff;
+  width: 1000px;
+  height: 550px;
+  border-radius: 50px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.product {
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+}
+
+.container {
+  display: flex;
+  gap: 50px;
+}
+
+img {
+  width: 550px;
+  height: 450px;
+  margin-top: 50px;
+  margin-left: 20px;
+}
+
+.product_reference {
+  display: flex;
+  justify-content: space-evenly;
+  gap: 100px;
+  padding-top: 50px;
+}
+
+.product_reference button {
+  width: 100px;
+  height: 40px;
+  border-radius: 50px;
+  border: none;
+  background-color: rgba(0, 0, 0, 0.769);
+  color: #fff;
+}
+
+.product_reference p {
+  font-size: 12px;
+}
+
+.product_description {
+  display: flex;
+  flex-direction: column;
+}
+
+h1 {
+  margin-bottom: 0;
+}
+
+.stars img {
+  width: 10px;
+  height: 10px;
+  padding: 3px;
+  margin: 0;
+}
+
+.stars {
+  display: flex;
+  align-items: center;
+}
+
+.note {
+  margin-left: 10px;
+  font-size: 15px;
+}
+
+.price_before {
+  text-decoration: line-through;
+  color: rgba(0, 0, 0, 0.469);
+  font-size: 15px;
+}
+
+.price_after {
+  font-weight: bold;
+  font-size: 40px;
+  padding: 0;
+  margin: 0;
+}
+
+.product_sell img {
+  width: 30px;
+  height: 30px;
+  margin: 0;
+  padding: 2px;
+}
+
+.button_sell {
+  width: 200px;
+  height: 45px;
+  border-radius: 8px;
+  border: none;
+  background-color: blue;
+  color: #fff;
+  margin-top: 40px;
+}
+
+.button_heart {
+  width: 45px;
+  height: 45px;
+  border-radius: 8px;
+  border: none;
+  background-color: rgb(200, 200, 200);
+  margin-top: 40px;
+}
+
+.product_sell {
+  display: flex;
+  margin-top: 40px;
+  gap: 15px;
+}
